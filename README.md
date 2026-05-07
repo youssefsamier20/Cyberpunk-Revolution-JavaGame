@@ -1,30 +1,92 @@
-# 🕹️ Cyberpunk Revolution (2D Fighting Game)
+# 🥊 CS304: Fighting Game Project
 
-## Overview
-**Cyberpunk Revolution** is an arcade-style 2D fighting game developed entirely from scratch using **Java** and **JOGL (Java Bindings for OpenGL)**. The project abandons modern graphical game engines to focus heavily on core Object-Oriented Programming principles, low-level rendering, and creating a scalable game architecture.
+**Welcome to the simple 2D fighting game project, developed using Java and OpenGL (JOGL).**
 
----
+This game provides a fast and engaging local multiplayer experience, where two players control their respective characters to execute movements and special attacks.
 
-## ✨ Features
+## 🎮 Key Features
 
-- **Game Modes:** Play against a scalable, intelligent AI (`Single Player`) or battle a friend (`Multiplayer`).
-- **Dynamic AI Controller:** The computer opponent (`AIController.java`) scales in difficulty across 6 levels, adjusting its aggression, defensive maneuvers, and reaction time dynamically.
-- **Complex State Management:** Implemented a robust state machine (`Game.State`) to seamlessly transition between multiple screens (Main Menu, Character Select, Settings, Pause, Gameplay, Credits).
-- **Custom Animation Engine:** Engineered a `SpriteAnimator` and `PlayerAnimator` to handle sprite sheets for idle, walk, attack, and hit states.
-- **Collision & Physics:** Handled 2D bounding-box hit detection for special powers, physical attacks, and health reduction calculations.
-- **Interactive UI:** Custom-built interactive buttons, power bars, health bars, and text rendering overlays.
+* **Simple 2D Graphics:** Clean and straightforward visuals built upon OpenGL foundations.
+* **2-Player Local Multiplayer:** Local competitive gameplay between two players *(Multiplayer mode included)*.
+* **Diverse Attacks:** Each character has a standard attack and a special (Spacial Attack).
+* **Clear Structure:** Organized project files to facilitate expansion and modification.
 
----
+## 🎯 Character Showcase
 
-## 🛠️ Tech Stack
+The primary combatants in the game are the **Red Fighter (Player 1)** and the **Blue Fighter (Player 2)**.
 
-- **Language:** Java
-- **Graphics API:** JOGL (Java Open Graphics Library)
-- **Key Concepts:** OOP Architecture, State Machines, Real-time Game Loops, Artificial Intelligence algorithms, 2D Array Rendering.
+|               Red Fighter (Player 1)              |               Blue Fighter (Player 2)              |
+| :-----------------------------------------------: | :------------------------------------------------: |
+| **![Red Character Sprite](assets/sprites/0.png)** | **![Blue Character Sprite](assets/sprites/1.png)** |
 
 ---
 
-## 💡 The "Why" Behind the Project
-This project was an exercise in understanding the absolute fundamentals of software engineering and game development. Building a game loop, writing an AI algorithm from scratch, and managing memory/textures using raw Java/OpenGL pushed my understanding of algorithmic logic and system architecture far beyond traditional application development.
+## 🚀 Quick Start
 
+To run the game on your system, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/AmrAhmed1210/CS304_Fighting_Project.git
+   cd CS304_Fighting_Project
+   ```
+2. **Add JOGL Libraries:**
+
+   * Download the appropriate **JOGL** (Java OpenGL) binaries for your operating system.
+   * Add the necessary **`.jar`** files for JOGL to the project's Build Path configuration.
+3. **Run the Game:**
+
+   * Execute the main file: `src/engine/Game.java`.
+
+## 🕹️ Controls
+
+Get ready to fight! Here are the control keys for each player:
+
+### Player 1 (Red Character)
+
+| Action                        | Key |
+| :---------------------------- | :-- |
+| **Move Left**                 | `A` |
+| **Move Right**                | `D` |
+| **Move Up**                   | `W` |
+| **Move Down**                 | `S` |
+| **Attack / Shoot Power Ball** | `F` |
+| **Spacial Attack**            | `G` |
+
+### Player 2 (Blue Character)
+
+| Action                        | Key       |
+| :---------------------------- | :-------- |
+| **Move Left**                 | `← Arrow` |
+| **Move Right**                | `→ Arrow` |
+| **Move Up**                   | `↑ Arrow` |
+| **Move Down**                 | `↓ Arrow` |
+| **Attack / Shoot Power Ball** | `Enter`   |
+| **Spacial Attack**            | `Shift`   |
+
+---
+
+## 📁 File and Folder Structure
+
+```
+CS304_Fighting_Project/
+├── src/
+│   ├── engine/
+│   │   ├── Game.java           # The main entry point and game loop.
+│   │   └── TextureLoader.java  # Responsible for loading graphical resources.
+│   └── entities/
+│       └── Player.java         # Base class for representing the players.
+└── assets/                     # Contains all image files and graphics.
+└── (Character images, backgrounds...)
+```
+
+## 🛠️ Technical Requirements
+
+Below are the tools and versions used:
+
+* Java Development Kit (JDK) 8 or later.
+* JOGL Version: **JOGL 1.1.1**
+
+---
 ---
