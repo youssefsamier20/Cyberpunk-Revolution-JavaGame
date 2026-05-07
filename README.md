@@ -88,6 +88,6 @@ Below are the tools and versions used:
 ---
 
 ## 📸 Sneak Peek
-![Cyberpunk Revolution Gameplay](CyperPunk%20Revuotion.mp4)
+![Cyberpunk Revolution Gameplay](CyperPunk%20Revolution.mp4)
 
 ---
