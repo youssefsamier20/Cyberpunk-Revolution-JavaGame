@@ -1,22 +1,21 @@
-# 🥊 CS304: Fighting Game Project
+# 🕹️ Cyberpunk Revolution (2D Fighting Game)
 
-**Welcome to the simple 2D fighting game project, developed using Java and OpenGL (JOGL).**
-
-This game provides a fast and engaging local multiplayer experience, where two players control their respective characters to execute movements and special attacks.
+## Overview
+**Cyberpunk Revolution** is an arcade-style 2D fighting game developed entirely from scratch using **Java** and **JOGL (Java Bindings for OpenGL)**. Moving beyond standard university projects, this game abandons pre-built engines to focus on core Object-Oriented Programming (OOP), complex state management, and low-level rendering pipelines.
 
 ## 🎮 Key Features
 
-* **Simple 2D Graphics:** Clean and straightforward visuals built upon OpenGL foundations.
-* **2-Player Local Multiplayer:** Local competitive gameplay between two players *(Multiplayer mode included)*.
-* **Diverse Attacks:** Each character has a standard attack and a special (Spacial Attack).
-* **Clear Structure:** Organized project files to facilitate expansion and modification.
+* **Dynamic AI & Multiplayer:** Play against a scalable, intelligent AI (`AIController`) or battle a friend in local competitive multiplayer.
+* **Complex State Management:** A robust state machine seamlessy handles transitions between Main Menu, Character Select, Gameplay, and Pause screens.
+* **Custom Animation Engine:** Engineered a sprite animator to handle idle, walk, attack, and hit states smoothly.
+* **Low-Level Rendering:** Clean and straightforward visuals built directly upon OpenGL foundations using JOGL.
 
 ## 🎯 Character Showcase
 
-The primary combatants in the game are the **Red Fighter (Player 1)** and the **Blue Fighter (Player 2)**.
+The primary combatants feature unique standard attacks and a devastating Special Attack. 
 
-|               Red Fighter (Player 1)              |               Blue Fighter (Player 2)              |
-| :-----------------------------------------------: | :------------------------------------------------: |
+|                Red Fighter (Player 1)               |                Blue Fighter (Player 2)               |
+| :-------------------------------------------------: | :-------------------------------------------------: |
 | **![Red Character Sprite](assets/sprites/0.png)** | **![Blue Character Sprite](assets/sprites/1.png)** |
 
 ---
@@ -26,11 +25,9 @@ The primary combatants in the game are the **Red Fighter (Player 1)** and the **
 To run the game on your system, follow these steps:
 
 1. **Clone the Repository:**
-
    ```bash
-   git clone https://github.com/AmrAhmed1210/CS304_Fighting_Project.git
-   cd CS304_Fighting_Project
-   ```
+   git clone [https://github.com/YourUsername/Cyberpunk_Revolution.git](https://github.com/YourUsername/Cyberpunk_Revolution.git)
+   cd Cyberpunk_Revolution
 2. **Add JOGL Libraries:**
 
    * Download the appropriate **JOGL** (Java OpenGL) binaries for your operating system.
@@ -70,7 +67,7 @@ Get ready to fight! Here are the control keys for each player:
 ## 📁 File and Folder Structure
 
 ```
-CS304_Fighting_Project/
+Cyberpunk_Revolution/
 ├── src/
 │   ├── engine/
 │   │   ├── Game.java           # The main entry point and game loop.
@@ -89,4 +86,9 @@ Below are the tools and versions used:
 * JOGL Version: **JOGL 1.1.1**
 
 ---
+
+<video src="CyperPunk%20Revuotion.mp4" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
+
 ---
