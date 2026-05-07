@@ -87,8 +87,7 @@ Below are the tools and versions used:
 
 ---
 
-<video src="CyperPunk%20Revuotion.mp4" width="100%" controls>
-  Your browser does not support the video tag.
-</video>
+## 📸 Sneak Peek
+![Cyberpunk Revolution Gameplay](CyperPunk%20Revuotion.mp4)
 
 ---
